@@ -1,0 +1,38 @@
+.component2-container {
+  display: flex;
+  position: relative;
+}
+.component2-image {
+  width: 136px;
+  height: 180px;
+  position: relative;
+  align-self: flex-start;
+  object-fit: cover;
+}
+.component2-root-class-name {
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  position: static;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-sixunits);
+  margin-left: var(--dl-space-space-fourunits);
+  margin-right: var(--dl-space-space-fourunits);
+  margin-bottom: var(--dl-space-space-fourunits);
+}
+@media(max-width: 767px) {
+  .component2-image {
+    top: -1538px;
+    left: -118px;
+    position: absolute;
+  }
+}
+@media(max-width: 479px) {
+  .component2-image {
+    top: -1454px;
+    left: -106px;
+    width: 212px;
+    height: 281px;
+    position: absolute;
+  }
+}

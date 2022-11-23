@@ -1,0 +1,29 @@
+.logo-cont-logo-cont {
+  display: flex;
+  position: relative;
+}
+.logo-cont-image {
+  width: auto;
+  height: var(--dl-size-size-small);
+  align-self: center;
+  object-fit: cover;
+  margin-right: var(--dl-space-space-unit);
+}
+.logo-cont-navlink {
+  display: contents;
+}
+.logo-cont-text {
+  color: var(--dl-color-danger-700);
+  width: auto;
+  align-self: center;
+  font-style: normal;
+  text-align: left;
+  font-family: Nunito;
+  font-weight: 800;
+  padding-top: var(--dl-space-space-halfunit);
+  text-decoration: none;
+}
+.logo-cont-root-class-name {
+  margin: var(--dl-space-space-oneandhalfunits);
+  align-self: flex-start;
+}

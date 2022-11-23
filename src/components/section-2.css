@@ -1,0 +1,119 @@
+.section-2-section-2 {
+  width: auto;
+  height: 346px;
+  display: flex;
+  position: relative;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.section-2-image {
+  width: 619px;
+  height: 309px;
+  margin: var(--dl-space-space-twounits);
+  z-index: 100;
+  align-self: flex-start;
+  object-fit: cover;
+}
+.section-2-text {
+  padding: var(--dl-space-space-fourunits);
+  z-index: 100;
+  font-size: 1.3rem;
+  max-width: 450px;
+  min-width: 400px;
+  font-family: Nunito;
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-threeunits);
+  background-image: linear-gradient(90deg, rgba(235, 255, 213, 0.52) 1%, rgba(177, 220, 255, 0.38) 99%);
+}
+.section-2-text1 {
+  font-size: 2rem;
+}
+.section-2-text2 {
+  color: var(--dl-color-danger-700);
+  font-size: 2rem;
+}
+.section-2-text3 {
+  font-size: 2rem;
+}
+.section-2-text7 {
+  font-style: normal;
+  font-weight: 300;
+}
+.section-2-container {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  position: relative;
+}
+@media(max-width: 991px) {
+  .section-2-image {
+    width: 427px;
+    height: 100%;
+  }
+  .section-2-text {
+    font-size: 1.3rem;
+    min-width: var(--dl-size-size-xxlarge);
+    text-align: left;
+    font-family: Nunito;
+  }
+  .section-2-text4 {
+    font-size: 2rem;
+  }
+  .section-2-text5 {
+    font-size: 2rem;
+  }
+  .section-2-text6 {
+    font-size: 2rem;
+  }
+  .section-2-text7 {
+    font-style: normal;
+    font-weight: 300;
+  }
+}
+@media(max-width: 767px) {
+  .section-2-image {
+    width: 394px;
+  }
+  .section-2-text {
+    min-width: var(--dl-size-size-xxlarge);
+    text-align: left;
+  }
+}
+@media(max-width: 479px) {
+  .section-2-section-2 {
+    height: 422px;
+    flex-direction: column;
+  }
+  .section-2-image {
+    flex: 1;
+    width: 470px;
+    height: 476px;
+    align-self: center;
+    margin-top: 412px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+  }
+  .section-2-text {
+    font-size: 2rem;
+    min-width: auto;
+    font-family: Nunito;
+  }
+  .section-2-text4 {
+    font-size: 1.3rem;
+  }
+  .section-2-text5 {
+    font-size: 1.3rem;
+  }
+  .section-2-text6 {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 300;
+  }
+  .section-2-text7 {
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 300;
+  }
+}
